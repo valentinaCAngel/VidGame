@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Permanent+Marker&display=swap');
+
+body {
+    background: url(../img/fondo2.png); /*CAMBIAR FONDO*/
+    color: antiquewhite;
+}
+
+.bg-sena{
+    background: #00aeff;
+}
+
+
+#carouselHeroCaptions p{
+    color: rgb(183, 106, 255);
+}
+#carouselHeroCaptions h5{
+    color: rgb(183, 106, 255);
+}
+
+nav{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo{
+   width: 67px;
+   position: absolute;
+   padding: 10px;
+}
+
+.form-control{
+    background:  rgb(183, 106, 255);
+}
+
+
+#nosotros{
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+}
+
+
+
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+     
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+@keyframes girar{
+    from{
+        transform: rotateY(360deg) translateZ(150px); 
+        z-index: 10;       
+    }
+    50%{
+        z-index: -10;
+    } 
+    
+to{
+    transform: rotateY(0) translateZ(150px);
+    z-index: 10;
+}
+}
+
+#lado4{
+    background-size: cover;
+    background-position: center;
+}
+#lado4:hover{
+webkit-box-shadow: 0px 0px 27px 0px rgb(105, 50, 255);
+moz-box-shadow: 0px 0px 27px 0px rgb(115, 27, 255);
+box-shadow: 0px 0px 27px 0px rgb(100, 17, 255);
+}
+
+#lado3{
+    background-size: cover;
+    background-position: center;
+    animation-delay: -1s;
+}
+#lado3:hover{
+    moz-box-shadow: 0px 0px 27px 0px #00aeff;
+    box-shadow: 0px 0px 27px 0px #00aeff;
+    webkit-box-shadow: 0px 0px 27px 0px #00aeff;
+ 
+    }
+
+#lado2{
+    background-size: cover;
+    background-position: center;
+    animation-delay: -2s;
+}
+#lado2:hover{
+    webkit-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    moz-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    }
+
+#lado1{
+    background-size: cover;
+    background-position: center;
+    animation-delay: -3s;
+}
+#lado1:hover{
+    webkit-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    moz-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    }
+
+/*Parte inferior y superior*/
+.lado2{
+    height: 300px;
+    width: 300px;
+    animation: girar_2 4s linear infinite;
+    position: relative;
+}
+
+@keyframes girar_2 {
+    from{
+        transform: rotateY(360deg) rotateX(90deg);
+    }
+    to{
+        transform: rotateY(0deg) rotateX(90deg);
+    }    
+}
+
+#ladoe{
+    background-color: white;
+    margin-bottom: 300px;
+}
+
+#ladof{
+    background-color: white;
+    margin-top: 300px;
+}
+
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.lado{
+    height: 300px;
+    width: 300px;
+    animation: girar 4s linear infinite;
+    position: absolute;
+    opacity: 0.9;
+    cursor: pointer;    
+}
+
+@keyframes girar{
+    from{
+        transform: rotateY(360deg) translateZ(150px); 
+        z-index: 10;       
+    }
+    50%{
+        z-index: -10;
+    } 
+    
+to{
+    transform: rotateY(0) translateZ(150px);
+    z-index: 10;
+}
+}
+
+#lado4{
+    background-size: cover;
+    background-position: center;
+}
+#lado4:hover{
+    webkit-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    moz-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    }
+
+
+#lado3{
+    background-size: cover;
+    background-position: center;
+    animation-delay: -1s;
+}
+#lado3:hover{
+    webkit-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    moz-box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    box-shadow: 0px 0px 27px 0px  rgb(142, 81, 255);
+    }
+    
+
+#lado2{
+    background-size: cover;
+    background-position: center;
+    animation-delay: -2s;
+}
+#lado2:hover{
+    moz-box-shadow: 0px 0px 27px 0px #00aeff;
+    box-shadow: 0px 0px 27px 0px #00aeff;
+    webkit-box-shadow: 0px 0px 27px 0px #00aeff;
+    }
+    
+
+#lado1{
+    background-size: cover;
+    background-position: center;
+    animation-delay: -3s;
+    position: absolute;
+}
+#lado1:hover{
+    moz-box-shadow: 0px 0px 27px 0px #00aeff;
+    box-shadow: 0px 0px 27px 0px #00aeff;
+    webkit-box-shadow: 0px 0px 27px 0px #00aeff;
+    }
+    
+
+/*Parte inferior y superior*/
+.lado2{
+    height: 300px;
+    width: 300px;
+    animation: girar_2 4s linear infinite;
+    position: relative;    
+}
+
+@keyframes girar_2 {
+    from{
+        transform: rotateY(360deg) rotateX(90deg);
+    }
+    to{
+        transform: rotateY(0deg) rotateX(90deg);
+    }    
+}
+
+#ladoe{
+    background-color: white;
+    margin-bottom: 300px;
+}
+
+#ladof{
+    background-color: white;
+    margin-top: 300px;
+}
+
+
+
+
+  
+
+#nosotros h1{
+    color: rgb(183, 106, 255);
+    padding-top: 50px;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(187, 67, 243) ;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+#nosotros p{
+    background: rgba(0, 0, 0, 0.39);
+    color: white;
+}
+#nosotros a{
+    padding: 14px 40px;
+    background: rgb(210, 166, 250);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    max-width: 200px;
+    text-align: center;
+    transition: .5s;
+}
+
+#nosotros a:hover{
+    background: rgb(141, 42, 255);
+    border-radius: 15px;
+    max-width: 250px;
+    
+}
+
+#category{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+.category-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category-heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(183, 106, 255);
+    letter-spacing: 0.5px;
+    margin-left: 427px;
+}
+#category-heading span{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.category-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.category-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.category-box img{
+    height: 80px;
+    width: 50px;
+    object-fit: contain;
+    object-position: center;
+    transition: all ease 0.1s;
+}
+.category-box span{
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+    margin-top: 20px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+.category-box:hover img{
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+
+
+
+
+#servicios{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#servicios h2{
+    color: rgb(183, 106, 255);
+    font-size: 36px;
+    border-bottom: 2px solid rgb(166, 57, 255);
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#servicios h2 span{
+    font-size: 54px;
+}
+
+#servicios .card-servicio{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+ 
+
+}
+
+#servicios .card-servicio::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.61);
+    transition: .5s;
+}
+
+#servicios .card-servicio a{
+    color: rgb(183, 106, 255);
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    transition: .5s;
+}
+
+#servicios .card-servicio:hover a{
+    background: rgba(0, 0, 0, 0.384);
+    color: rgb(255, 255, 255);
+    bottom: 78%;
+}
+
+#servicios .card-servicio:hover::after{
+    background: rgba(0, 0, 0, 0.205);
+}
+
+
+
+
+
+#contacto{
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+    
+}
+
+#contacto h2 {
+    color: rgb(183, 106, 255);
+}
+#contacto .btn{
+    background:  rgb(142, 81, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    transition: .5s;
+}
+
+#contacto .btn:hover{
+    background: rgb(141, 42, 255);
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+footer{
+    background: #00aeff;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+
+
+
+#review {
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    background: url(../img/fondoplay.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#review h2{
+    color: aqua;
+    text-align: center;
+    padding: 0 50px;
+    font-style: italic;
+}
+
+.fornite{
+  width: 250px;
+}
+.final{
+    width:250px ;
+}
+.halo{
+    width: 355px;
+}
+.gta{
+    width: 230px;
+}
+.impact{
+    width:248px ;
+}
+.fifa{
+    width: 400px;
+}
+.evil{
+    width: 400px;
+}
+.last{
+    width: 385px;
+}
+.punk{
+    width: 260px;
+}
+
+.imgScroll{
+    position: relative;
+    left: 0;
+    padding: 60px 0;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    
+}
+
+.imgScroll div{
+    display: flex;
+    animation: animate 25s linear infinite;
+    animation-delay: -20px;
+    animation-direction: alternate;
+}
+.imgScroll div:nth-child(2)
+{
+    animation: animate2 15s linear infinite;
+    animation-delay: -5px;
+}
+.imgScroll:hover div, .imgScroll:hover div:nth-child(2){
+    animation-play-state: paused;
+}
+
+@keyframes animate {
+    0% 
+    {
+        transform: translateX(-100%)
+    }   
+    
+}
+
+@keyframes animate {
+    0% 
+    {
+        transform: translateX(-100%)
+    }
+    
+}
+
+.imgScroll div img{
+    margin: 0 25px;
+    max-width: 300px;
+    border: 10px solid transparent;
+    transition: 0.25s;
+}
+
+.imgScroll div img:hover{
+    border: 10px solid white;
+    box-shadow: 0 20px 40px blue;
+}
+
+.imgScroll:hover div img{
+    opacity: 0.05;
+    filter: blur(5px);
+}
+.imgScroll div img:hover{
+    opacity: 1;
+    filter: blur(0px);
+}
+
+
+
